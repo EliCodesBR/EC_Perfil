@@ -1,0 +1,47 @@
+#NÃO ALTERE A 'file-version'!;
+file-version: 1.1
+
+#Suporte para: PlaceholderAPI;
+Perfil:
+  Options:
+    Messages:
+      sem_permissao: "&cVocê não possui permissão suficiente."
+      sem_console: "&cEste comando esta desativado via Console."
+      jogador_offline: "&cO jogador &f$player &cesta offline no momento."
+      reload: "&aPlugin recarregado com sucesso."
+    Permissions:
+      #deixe '' caso não queira permissão;
+      permissao_perfil: "perfil.use"
+      permissao_admin: "perfil.admin" #Comando admin: /perfiladmin reload
+  Inventory:
+    NomeInv: "&8Inventário de %player_name%"
+    Tamanho: 27
+    Items:
+      item1:
+        nome: "&7Seu grupo"
+        cabeca: true #Deixe true caso queira a cabeça do player. OBS: não precisa colocar id e data;
+        quantidade: 1
+        slot: 11
+        lore:
+          - ""
+          - "&7Você possui o grupo: &r%vault_prefix%"
+      item2:
+        nome: "&7Seu saldo"
+        id: 339
+        data: 0
+        cabeca: false
+        quantidade: 1
+        slot: 13
+        lore:
+          - ""
+          - "&7Você possui &e%vault_eco_balance_formatted% &7coins"
+      item3:
+        nome: "&7Seu cash"
+        id: 276
+        data: 0
+        cabeca: false
+        quantidade: 1
+        slot: 15
+        lore:
+          - ""
+          - "&7Você possui &e%vault_eco_balance% &7pontos"

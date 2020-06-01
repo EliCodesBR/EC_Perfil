@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EC_Perfil">
+    <output-path>$USER_HOME$/Desktop/Servidor/plugins</output-path>
+    <root id="archive" name="EC_Perfil.jar">
+      <element id="module-output" name="EC_Perfil" />
+    </root>
+  </artifact>
+</component>

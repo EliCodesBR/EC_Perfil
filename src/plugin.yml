@@ -1,0 +1,9 @@
+name: EC_Perfil
+version: 1.0-ALPHA
+main: net.elicodes.perfil.Main
+author: EliCodes
+depend: [PlaceholderAPI]
+softdepend: [Vault, PermissionsEx]
+commands:
+  perfil:
+  perfiladmin:

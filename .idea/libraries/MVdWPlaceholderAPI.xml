@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MVdWPlaceholderAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ShieldMC/plugins/MVdWPlaceholderAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
